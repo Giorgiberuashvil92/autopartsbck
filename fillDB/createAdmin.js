@@ -1,7 +1,6 @@
 const Admin = require('../api/models/Admin.model');
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
-
 const Email = 'asd@asd.com';
 const Password = 'asdasd';
 

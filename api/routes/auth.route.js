@@ -7,6 +7,8 @@ router.get('/valid', checkAuthStudent, AuthController.userTokenValid);
 
 router.post('/login', AuthController.userLogin);
 
+router.post('/forgotPassword', AuthController.forgotPassword)
+
 router.post('/register', AuthController.userRegister);
 
 
